@@ -1,0 +1,50 @@
+QToolButton {
+	background-color: #222222;
+	border: 0px solid black;
+	border-radius: 25px;
+	color: lightGray;
+	font-size: 25px;
+}
+
+QFrame#frameTempMin, QFrame#frameTempAvg, QFrame#frameTempMax, QFrame#frameColorBar {
+	background-color: #222222;
+	border: 0px solid black;
+	border-radius: 25px;
+}
+
+QFrame#cam0Space, QFrame#cam1Space {
+	border: 2px solid #707070;
+	border-radius: 25px;
+}
+
+QWidget:item:hover
+{
+	background-color: #3daee9;
+	color: #eff0f1;
+}
+
+QWidget:item:selected
+{
+	background-color: #3daee9;
+}
+
+QComboBox {
+	background-color: #222222;
+}
+
+QChartView {
+	background-color: #222222;
+}
+
+QComboBox:hover,QPushButton:hover,QAbstractSpinBox:hover,QLineEdit:hover,QTextEdit:hover,QPlainTextEdit:hover,QAbstractView:hover,QTreeView:hover
+{
+	border: 1px solid #3daee9;
+	color: #eff0f1;
+}
+
+QComboBox:on
+{
+	padding-top: 3px;
+	padding-left: 4px;
+	selection-background-color: #4a4a4a;
+}

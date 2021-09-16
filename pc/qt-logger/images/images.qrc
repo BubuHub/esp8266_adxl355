@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="/qt-logger">
+    <file>qt-logger.png</file>
+  </qresource>
+</RCC>
