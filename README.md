@@ -4,7 +4,7 @@ This simple program reads values from the FIFO of the ADXL355 chip over the SPI 
 The hardware SPI bus support was placed in hspi.[ch] file, I wrote my own SPI driver because standard SPI driver from Arduino caused interrupts between bytes. 
 The SPI of the ESP8266 chip is very easy and fun to program, so I decided to write my own driver.
 
-![](https://github.com/BubuHub/esp8266_adxl355/blob/master/blob/assets/spi_my.png)
+![](https://github.com/BubuHub/esp8266_adxl355/blob/main/blob/assets/spi_my.png)
 
 The program written in QT5 (qt-logger) located in pc/qt-logger directory allows me to save data to csv file.
 
